@@ -18,7 +18,7 @@ const char* password = "GANTI PASSWORD KAMU";
 
 void setup(){
   Serial.begin(115200);
-  // Letakkan kode setup kamu disini
+  // Letakkan kode SETUP kamu disini
   pinMode(led, OUTPUT);
   pinMode(led2, OUTPUT);
 
@@ -54,7 +54,7 @@ void setup(){
 
 void loop(){
   ArduinoOTA.handle(); // Wajib dipakai saat upload program
-  // Letakkan kode kamu di sini
+  // Letakkan kode LOOP kamu di sini
   for(int i = 0; i < 5; i++){
   digitalWrite(led2, HIGH);
   delay(50);
