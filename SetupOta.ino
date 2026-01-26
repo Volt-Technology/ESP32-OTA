@@ -6,6 +6,7 @@ const char* password = "GANTI PASSWORD KAMU";
 
 void setup(){
   Serial.begin(115200);
+  // Letakkan kode SETUP kamu disini
 
   // Setup WIFI (TIDAK USAH DIUBAH)
   WiFi.mode(WIFI_STA);
@@ -26,5 +27,6 @@ void setup(){
 
 void loop(){
   ArduinoOTA.handle(); // Wajib dipakai saat upload program
+  // Letakkan kode LOOP kamu disini
  
 }
