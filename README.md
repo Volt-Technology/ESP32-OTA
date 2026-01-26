@@ -1,5 +1,5 @@
 #ESP32-OTA
-Secara singkat, OTA (Over-the-Air) adalah fitur yang bisa kamu gunakan
+Secara singkat, OTA (Over-The-Air) adalah fitur yang bisa kamu gunakan
 untuk memperbarui atau mengganti program pada ESP32 secara nirkabel 
 melalui jaringan Wi-Fi atau internet
 
