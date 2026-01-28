@@ -36,8 +36,8 @@ void setup(){
   }
 
   // Setup OTA
-  //ArduinoOTA.setHostname("ESP32 OTA"); //-> OPSIONAL
-  //ArduinoOTA.setPassword("1234"); // -> OPSIONAL
+  //ArduinoOTA.setHostname("ESP32 OTA"); //-> Menamai board ESP32 (OPSIONAL)
+  //ArduinoOTA.setPassword("1234"); // -> Memasukkan password saat uppload program (OPSIONAL)
   ArduinoOTA.begin(); // -> Wajib dipakai saat upload program
 
   Serial.print("\nIP -> ");
